@@ -4,12 +4,27 @@
     background-attachment: fixed; 
     background-size: 100% 100%;
   }
+  #div1{
+    width: 40%;
+    padding: 0px;
+    height: 100%;
+    margin: 0px;
+  }
+  #topnav{
+    height:20%;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left:0px;
+  }
 #home1{
     color: white;
     font-family: 'Lexend', sans-serif;
     letter-spacing: 3px;
     font-size: 60px;
-    margin-left: 105px;
+    margin-left: 118px;
     margin-top:0px ;
 }
 #home2{
@@ -18,11 +33,11 @@
     font-size: 35px;
     letter-spacing: 2px;
     margin-top: 200px;
-    margin-left: 100px;
+    margin-left: 110px;
 }
 #home3{
     color: rgb(129, 129, 129);
-    margin-left: 135px;
+    margin-left: 145px;
     font-family: 'Nanum Myeongjo', serif;
     letter-spacing: 1.5px;
     font-size: 17px;
@@ -31,6 +46,65 @@
     border-left: 2px solid silver;
     position: absolute;
     height: 90px;
-    left: 118px;
+    left: 132px;
 
+}
+#icons{
+    position:absolute;
+    top:28.8%;
+    left: 96%;
+}
+*{
+    text-decoration: none;
+}
+.navbar{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 35px;
+    position: absolute;
+    top: 7px;
+}
+button a{
+    background-color: brown;
+    color: white;
+}
+li{
+    display: inline-block;
+}
+li a{
+    color: white;
+    margin-right: 90px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+    position: relative;
+    right: 200px;
+    
+}
+.logo a{
+    color: white;
+    position: absolute;
+    left: 5%;
+}
+#bord{
+    border-radius:80px ;
+    border-color:rgba(95, 95, 95, 0.91);
+    width: 90%;
+    position: absolute;
+    top: 20px;
+    left:60px;
+    border-width:0.1px;
+    border-style: solid;
+}
+#logoimg{
+    height: 45px;
+    position: absolute;
+    left: 28px;
+    top: 5px;
 }
