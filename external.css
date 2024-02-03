@@ -1,0 +1,36 @@
+#bodyid {
+    background-image:url(fht6.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+  }
+#home1{
+    color: white;
+    font-family: 'Lexend', sans-serif;
+    letter-spacing: 3px;
+    font-size: 60px;
+    margin-left: 105px;
+    margin-top:0px ;
+}
+#home2{
+    font-family: 'Rajdhani', sans-serif;
+    color:rgb(129, 129, 129);
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+#home3{
+    color: rgb(129, 129, 129);
+    margin-left: 135px;
+    font-family: 'Nanum Myeongjo', serif;
+    letter-spacing: 1.5px;
+    font-size: 17px;
+}
+#v1{
+    border-left: 2px solid silver;
+    position: absolute;
+    height: 90px;
+    left: 118px;
+
+}
