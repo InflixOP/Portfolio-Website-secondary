@@ -4,6 +4,63 @@
     background-attachment: fixed; 
     background-size: 100% 100%;
   }
+ 
+.scroll-watcher {
+    height: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: rgb(155, 43, 107);
+    width: 100%;
+  
+}
+@keyframes scroll-watcher{
+    to{ scale: 1 1;}
+}
+@keyframes fadeSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+#div1,
+#about1,
+#about2 {
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+#div1 {
+    animation: fadeSlideIn 1s ease-out 0s 1 normal forwards;
+    scroll-margin-top: 50px;
+}
+
+#about1 {
+    animation: fadeSlideIn 1s ease-out 0.5s 1 normal forwards;
+    scroll-margin-top: 50px; 
+}
+
+#about2 {
+    animation: slideIn 1s ease-out 1s 1 normal forwards;
+    scroll-margin-top: 50px; 
+}
+
   #div1{
     width: 40%;
     padding: 0px;
@@ -24,7 +81,7 @@
     font-family: 'Lexend', sans-serif;
     letter-spacing: 3px;
     font-size: 60px;
-    margin-left: 118px;
+    margin-left: 158px;
     margin-top:0px ;
 }
 #home2{
@@ -33,11 +90,11 @@
     font-size: 35px;
     letter-spacing: 2px;
     margin-top: 200px;
-    margin-left: 110px;
+    margin-left: 130px;
 }
 #home3{
     color: rgb(129, 129, 129);
-    margin-left: 145px;
+    margin-left: 170px;
     font-family: 'Nanum Myeongjo', serif;
     letter-spacing: 1.5px;
     font-size: 17px;
@@ -46,7 +103,7 @@
     border-left: 2px solid silver;
     position: absolute;
     height: 90px;
-    left: 132px;
+    left: 162px;
 
 }
 #icons{
@@ -140,4 +197,44 @@ li a:hover:after{
     position: absolute;
     left: 28px;
     top: 5px;
+}
+#about{
+    position: absolute;
+    top: 670px;
+    left: 140px;
+    font-size: 80px;
+    color: white;
+    font-family:'Lexend', sans-serif ;
+}
+#about1 {
+    position: absolute;
+    top: 110px;
+    left: 160px;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+}
+#second{
+    position: absolute;
+    top: 770px;
+    width: 90%;
+}
+#me {
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Nanum Myeongjo', serif;
+    letter-spacing: 1.5px;
+    color: rgb(172, 171, 171);
+}
+
+#about2 {
+    position: absolute;
+    top: 120px;
+    left: 900px; 
+}
+
+#self{
+    width: 320px;
+    border: 2px solid rgb(155, 43, 107);
+    height: 400px;
 }
