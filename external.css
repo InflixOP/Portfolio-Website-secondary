@@ -4,19 +4,6 @@
     background-attachment: fixed; 
     background-size: 100% 100%;
   }
- 
-.scroll-watcher {
-    height: 10px;
-    position: fixed;
-    top: 0;
-    z-index: 1000;
-    background-color: rgb(155, 43, 107);
-    width: 100%;
-  
-}
-@keyframes scroll-watcher{
-    to{ scale: 1 1;}
-}
 @keyframes fadeSlideIn {
     from {
         opacity: 0;
@@ -48,7 +35,7 @@
 
 #div1 {
     animation: fadeSlideIn 1s ease-out 0s 1 normal forwards;
-    scroll-margin-top: 50px;
+    scroll-margin-top: 50px; 
 }
 
 #about1 {
