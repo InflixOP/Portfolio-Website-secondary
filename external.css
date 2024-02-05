@@ -209,9 +209,9 @@ li a:hover:after{
 #me {
     font-weight: 500;
     font-size: 20px;
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Rajdhani', sans-serif;
     letter-spacing: 1.5px;
-    color: rgb(172, 171, 171);
+    color: rgb(255, 255, 255);
 }
 
 #about2 {
