@@ -269,4 +269,11 @@ footer {
 footer p {
     margin-bottom: 0;
 }
-
+#contact{
+    position: absolute;
+    top: 2250px;
+    left: 140px;
+    font-size: 80px;
+    color: white;
+    font-family:'Lexend', sans-serif ;
+}
