@@ -225,3 +225,11 @@ li a:hover:after{
     border: 2px solid rgb(155, 43, 107);
     height: 400px;
 }
+#skills{
+    position: absolute;
+    top: 1500px;
+    left: 140px;
+    font-size: 80px;
+    color: white;
+    font-family:'Lexend', sans-serif ;
+}
