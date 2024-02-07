@@ -207,11 +207,12 @@ li a:hover:after{
     width: 90%;
 }
 #me {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 20px;
+
     font-family: 'Rajdhani', sans-serif;
     letter-spacing: 1.5px;
-    color: rgb(255, 255, 255);
+color: rgb(171, 163, 163);
 }
 
 #about2 {
@@ -233,3 +234,39 @@ li a:hover:after{
     color: white;
     font-family:'Lexend', sans-serif ;
 }
+#third{
+    position: absolute;
+    top: 1750px;
+    height: 350px;
+    display: flex;
+    width: 1510px;
+}
+#list1{
+    position: absolute;
+    top: 0px;
+    left: 120px;
+    color: rgb(171, 163, 163);
+    font-size: 25px;
+    width: 750px;
+}
+#list2{
+    position: absolute;
+    top: 0px;
+    left: 755px;
+    color: rgb(171, 163, 163);
+    font-size: 25px;
+}
+footer {
+    background-color: #0e0108;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: absolute;
+    top: 3000px;
+    width: 1510px;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
