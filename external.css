@@ -277,3 +277,36 @@ footer p {
     color: white;
     font-family:'Lexend', sans-serif ;
 }
+#fourth{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    height: 300px;
+    top:2500px;
+    left:170px;
+}
+#email{
+    height: 30px;
+    background-color: #190811;
+    font-family:'Lexend', sans-serif ;
+}
+#subject{
+    height: 30px;
+    font-family:'Lexend', sans-serif ;
+    background-color: #190811;
+}
+#message{
+    height: 100px;
+    font-family:'Lexend', sans-serif ;
+    background-color: #190811;
+    text-align:justify;
+}
+#send{
+    font-family:'Lexend', sans-serif ;
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: rgb(215, 202, 207);
+}
