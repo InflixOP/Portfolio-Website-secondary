@@ -252,7 +252,7 @@ color: rgb(171, 163, 163);
 #list2{
     position: absolute;
     top: 0px;
-    left: 755px;
+    left: 780px;
     color: rgb(171, 163, 163);
     font-size: 25px;
 }
@@ -309,4 +309,41 @@ footer p {
     height: 40px;
     margin-left: 10px;
     background-color: rgb(215, 202, 207);
+}
+#list1circles {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 22px;
+    width: 100px; 
+    height: 260px;
+    position: absolute;
+    left: 380px;
+    
+}
+
+.circle-group {
+    display: flex;
+    
+}
+
+.circle {
+    width: 18px; 
+    height: 18px; 
+    border-radius: 50%;
+    background-color: #b63183; 
+    margin: 7px;
+} 
+#list2circles{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 22px;
+    width: 100px; 
+    height: 260px;
+    position: absolute;
+    left: 380px;
+    
 }
