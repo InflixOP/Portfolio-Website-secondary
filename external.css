@@ -291,17 +291,20 @@ footer p {
     height: 30px;
     background-color: #190811;
     font-family:'Lexend', sans-serif ;
+    color: white;
 }
 #subject{
     height: 30px;
     font-family:'Lexend', sans-serif ;
     background-color: #190811;
+    color: white;
 }
 #message{
     height: 100px;
     font-family:'Lexend', sans-serif ;
     background-color: #190811;
-    text-align:justify;
+    color:white;
+    text-align:start;
 }
 #send{
     font-family:'Lexend', sans-serif ;
