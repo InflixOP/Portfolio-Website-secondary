@@ -150,7 +150,7 @@ li a{
 li a:after{
     content: "";
     position: absolute;
-    background-color: rgb(155, 43, 107);
+    background-color: rgb(155, 43, 106);
     height: 3px;
     width: 0;
     left: 0;
