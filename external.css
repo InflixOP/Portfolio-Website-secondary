@@ -1,6 +1,6 @@
 #bodyid {
     background-image:url(fht6.jpg);
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%;
   }
@@ -143,7 +143,7 @@ li a{
     color: white;
     margin-right: 90px;
     font-family: 'Lexend', sans-serif;
-    font-weight: 400;
+    font-weight: 399;
     position: relative;
     right: 200px;   
 }
