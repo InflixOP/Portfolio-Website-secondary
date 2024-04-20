@@ -245,12 +245,12 @@ color: rgb(171, 163, 163);
     position: absolute;
     top: 0px;
     left: 120px;
-    color: rgb(171, 163, 16);
+    color: rgb(171, 163, 163);
     font-size: 25px;
     width: 750px;
 }
 #list2{
-    position: absolute;
+    position: absolute; 
     top: 0px;
     left: 780px;
     color: rgb(171, 163, 163);
