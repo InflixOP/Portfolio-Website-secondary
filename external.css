@@ -14,7 +14,6 @@
         transform: translateY(0);
     }
 }
-
 @keyframes slideIn {
     from {
         opacity: 0;
@@ -25,19 +24,16 @@
         transform: translateX(0);
     }
 }
-
 #div1,
 #about1,
 #about2,#skills,#list1,#list2 ,#contact,#fourth{
     opacity: 0;
     transition: opacity 1s ease, transform 1s ease;
 }
-
 #div1 {
     animation: fadeSlideIn 1s ease-out 0s 1 normal forwards;
     scroll-margin-top: 50px; 
 }
-
 #about1,#skills ,#contact{
     animation: fadeSlideIn 1s ease-out 0.5s 1 normal forwards;
     scroll-margin-top: 50px; 
@@ -91,7 +87,6 @@
     position: absolute;
     height: 90px;
     left: 162px;
-
 }
 #icons{
     position:absolute;
@@ -126,7 +121,6 @@ button {
     padding-left: 10px;
     position: relative;
     right: 150px;
-
 }
     button:hover {
     box-shadow: 0 0 5px rgb(155, 43, 107),
@@ -160,7 +154,6 @@ li a:after{
 li a:hover{
     color: rgb(108, 102, 102);
 }
-
 li a:hover:after{
     width: 100%;
 }
@@ -256,7 +249,7 @@ color: rgb(171, 163, 163);
     color: rgb(171, 163, 163);
     font-size: 25px;
 }
-footer {
+footer{
     background-color: #0e0108;
     color: #fff;
     padding: 10px 0;
@@ -265,7 +258,6 @@ footer {
     top: 3000px;
     width: 1510px;
 }
-
 footer p {
     margin-bottom: 0;
 }
@@ -323,12 +315,9 @@ footer p {
     height: 260px;
     position: absolute;
     left: 380px;
-    
 }
-
 .circle-group {
-    display: flex;
-    
+    display: flex;  
 }
 .circle-group2{
     display: flex;
@@ -340,7 +329,6 @@ footer p {
     background-color: #e12497; 
     margin: 7px;
 }
-
 .circle {
     width: 18px; 
     height: 18px; 
@@ -421,7 +409,7 @@ footer p {
 }
 #home2{
     font-family: 'Rajdhani', sans-serif;
-    color:rgb(129, 129, 129);
+    color:rgb(129, 129, 128);
     font-size: 35px;
     letter-spacing: 2px;
     margin-top: 200px;
@@ -439,7 +427,6 @@ footer p {
     position: absolute;
     height: 90px;
     left: 162px;
-
 }
 #icons{
     position:absolute;
